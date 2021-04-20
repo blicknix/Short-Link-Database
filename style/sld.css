@@ -1,0 +1,123 @@
+    a:link {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:visited {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: grey;
+    }
+
+    a:active {
+        text-decoration: none;
+        color: black;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    footer{
+        text-align: center;
+        height: 2em;
+        font-family: Helvetica, sans-serif;
+    }
+
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: Helvetica, sans-serif;
+	    font-size: large;
+    }
+
+    .logo_footer{
+        height: 20px;
+        vertical-align: middle;
+    }
+
+    #header{
+        margin-top: 50px;
+        margin-bottom: 1cm;
+    }
+
+    #urlOutput{
+        margin-bottom: 10px;
+        padding: 4px;
+        padding-left: 25px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        background-color: WhiteSmoke;
+        width: 300px;
+        outline: none;
+        background-image: url('../pics/logo.png');
+        background-size: 20px 20px;
+        background-position: 3px 3px;
+        background-repeat: no-repeat;
+    }
+    #urlInsert{
+        margin-bottom: 10px;
+        padding: 4px;
+        padding-left: 25px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        background-color: WhiteSmoke;
+        width: 300px;
+        outline: none;
+        transition: width 0.4s ease-in-out;
+        background-image: url('../pics/logo.png');
+        background-size: 20px 20px;
+        background-position: 3px 3px;
+        background-repeat: no-repeat;
+    }
+
+    #urlInsert:focus{
+        width: 600px
+    }
+
+    #genButton{
+        margin-bottom: 2cm;
+        border: none;
+        padding: 10px 32px;
+        border-radius: 10px;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    #genButton span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    #genButton span:after {
+        content: 'now';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+
+    #genButton:hover span {
+        padding-right: 40px;
+    }
+
+    #genButton:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+
+    #middle {
+        min-height: 120px;
+    }
+
+    #feedback {
+	    font-weight: bold;
+    }
